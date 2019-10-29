@@ -1,0 +1,257 @@
+
+h1, h2, h3, h4, h5{
+	color:#4A4E69;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	color: #4A4E69;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section {
+	width:100%;
+  margin: 40px 0;
+	padding: 0 5%;
+}
+
+.section-heading {
+	text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+hr {
+	max-width:300px;
+}
+
+
+.navbar.navbar-default {
+	background: none;
+	border: none; 
+  z-index: 1;
+}
+
+
+.navbar-default .navbar-text {
+	color:white;
+}
+
+
+.row-header {
+  padding: 10vh 10vw 0 10vw;
+  background-image: url('../img/chicago.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom:100px;
+  display: flex;
+  align-items: center
+}
+
+.header-col {
+	position: relative;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+  bottom: -60px;
+  padding: 30px 0;
+  max-width:400px;
+  margin:auto;
+}
+
+.profile-pic {
+	border-radius:50%;
+	width:40%;
+	max-width: 200px;
+}
+
+.header-col h2 {
+	font-size: 1.3em;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.email {
+  margin-top:20px;
+}
+
+.email .glyphicon {
+	margin-right:5px;
+}
+
+
+.project-img-col img {
+	max-width: 250px;
+  margin: auto;
+}
+#projects-container{
+	
+}
+
+.list-container {
+  max-width: 69%;
+  margin: auto;
+}
+#sorting-elements-container {
+	display: flex;
+  direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 69%;
+  margin: auto;
+
+  h6{
+	  font-weight: 300;
+	  padding: 0.5rem;
+  }
+}
+
+.techlogo {
+	width:140px;
+}
+
+.tech-item {
+	margin:10px;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tech-item-text {
+	margin-top:10px;
+}
+
+.tech-item i {
+	font-size:5em;
+}
+
+.tech-tool-item {
+	margin-left:15px;
+  display: inline-block;;
+}
+
+.row-footer {
+	padding: 0vh 10vw 10vw 10vw;
+	margin-top:100px;
+	background-image: url('../img/chicago.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.footer-col {
+	position: relative;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+  top: -60px;
+  padding: 50px 0;
+  max-width:400px;
+  margin:auto;
+}
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+.btn-primary.outline {
+	border: 2px solid #0099cc;
+	color: #0099cc;
+	border:0;
+}
+
+.linkedin-btn {
+	background-color: white;
+	width:140px;
+	box-shadow: 0px 2px 5px 1px lightgrey;
+	padding: 12px;
+	border-radius: 5px;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+#certification-container{
+	margin: auto;
+	max-width: 69%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center; 
+
+}
+
+.certification-item-link:link, .certification-item-link:visited, .certification-item-link:active {
+color: black;
+text-decoration: none;
+}
+.certification-item{
+	width: 17rem;
+	height: 6.5rem;
+	padding: 0.5rem;
+}
+.certification-item:hover{
+	box-shadow : 0 1px 10px 3px rgba(0, 0, 0, 0.18)
+}
+.certification-item-text{
+	vertical-align:top;
+    display:inline-block;
+    width: 60%;
+
+}
+.certification-logo{
+	width: 6rem;
+	padding-right: 0.5rem;
+}
+.modal.fade{
+	opacity:1;
+  }
+.modal.fade .modal-dialog {
+	-webkit-transform: translate(0);
+    -o-transform: translate(0);
+    transform: translate(0);
+    top: 30%;
+	
+  }
+  .modal-header{
+      
+      h5 {
+          color: white;
+      }
+  }
+#education {
+	#education-container{
+		margin: auto;
+		max-width: 69%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+
+		.education-item{
+			width: 17rem;
+			padding: 0.5rem;
+			text-align: center;
+			
+			img{
+				max-width: 15rem;
+			}
+			h5{
+				font-weight: 400;
+			}
+		}	
+	}
+	
+}
